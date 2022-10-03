@@ -6,12 +6,12 @@
                 <img class="" :src="post.imgUrl" :alt="post.make">
             </span>
 
-            <!--Body Start-->
+            
             <span v-if="post.body != null">
                
                <p>{{post.body}}</p>
            </span>
-           <!--Body End-->
+           
         </p>
 
 
